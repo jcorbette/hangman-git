@@ -56,6 +56,17 @@ def play(word):
         print("Congrats, you guessed the word! You win!")
     else:
         print("Sorry, you ran out of tries. The word was " + word + ". Maybe next time!")
+    else:
+        def play_loop():
+            global play_game
+            play_game = input("Play again? y = yes, n = no \n")
+            while play_game not in 
+                play_game = input("Play again? y = yes, n = no \n")
+            if play_game == "y":
+                main()
+            elif play_game == "n":
+                print("Thanks for playing.")
+                exit()
 
 
 def display_hangman(tries):
