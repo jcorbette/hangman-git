@@ -35,8 +35,8 @@ def play_hangman():
     playing = True
     start = False
     tries = 6
-    letters_guessed = list(get_word())
-    words_guessed = []
+    actual_letters = list(get_word())
+    letters_guessed = []
 
     word_list_lengths = []
     for x in word_list:
@@ -78,11 +78,10 @@ def play_hangman():
         print("\n", end="\n")
         print("The computer guessed {} \n".format(guess_letter()))
         tries -= 1  # the number of tries remaining decreases by 1 each loop
-
+        print(display_hangman(tries))
         # Rest of code goes here
 
     print("End of current code \n")
-
 
 def display_hangman(tries):
     stages = [  # final state: head, torso, both arms, and both legs
@@ -157,8 +156,8 @@ def display_hangman(tries):
                 """
     ]
     return stages[tries]
-    
-    
+
+
 def main():
     # this function calls the play_hangman function and repeats it when the user says yes
     play_hangman()
