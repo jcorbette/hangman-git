@@ -1,3 +1,4 @@
+# This is a list of random words to be used for hangman gameplay
 word_list = [
     'wares',
     'soup',
@@ -438,17 +439,5 @@ word_list = [
     'vent',
     'hybrid',
     'buffet',
-    'lively']
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-
+    'lively'
+]
