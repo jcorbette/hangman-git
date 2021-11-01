@@ -34,6 +34,10 @@ sudo chmod +x hangman.py
 ./hangman.py
 ```
 
+## Project Images
+![Game Start Screenshot](/images/screenshot-1.jpeg?raw=true "Game Start")
+
+
 ## Resources
 Want to learn about how guessing was made more efficient in this hangman game? Check out this link:
 
