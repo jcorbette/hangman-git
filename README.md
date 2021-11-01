@@ -36,6 +36,11 @@ sudo chmod +x hangman.py
 
 ## Project Images
 ![Game Start Screenshot](/images/screenshot-1.jpeg?raw=true "Game Start")
+![Correct Guess Screenshot](/images/screenshot-2.jpeg?raw=true "Correct Guess")
+![Wrong Guess Screenshot](/images/screenshot-3.jpeg?raw=true "Wrong Guess")
+![Game Won Screenshot](/images/screenshot-4.jpeg?raw=true "Game Won")
+![Game Lost Screenshot](/images/screenshot-5.jpeg?raw=true "Game Lost")
+![Wrong Hint Screenshot](/images/screenshot-6.jpeg?raw=true "Wrong Hint")
 
 
 ## Resources
